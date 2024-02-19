@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:grocery_shop_app/page/intro_page/intro_page.dart';
 
 import '../../home_page/home_page.dart';
 
@@ -13,7 +14,7 @@ class ButtonIntro extends StatelessWidget {
         onTap: () => Navigator.pushAndRemoveUntil(
             context,
             MaterialPageRoute(
-              builder: (context) => const HomePage(),
+              builder: (context) => const MainBottonNavBar(),
             ),
             (route) => false),
         child: Container(
